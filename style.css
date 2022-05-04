@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    height: 100%;
+    width: 100%;
+    
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+.img img{
+   width: 100%;
+   height: 100%;
+}
+.left{
+    position: absolute;
+     top: 0;
+    width: 50%;
+    height: 100%;
+    filter: blur(6px);
+    z-index: 1;
+    -webkit-filter: blur(6px);
+
+}
+.navleft{
+    display: flex;
+    flex-direction: row;
+height: 30px;
+width: 50px;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    z-index: 60;
+    opacity: 0.7;
+}
+.navleft h5{
+    margin-right: 5px;
+    font-size:20px;
+}
+.icon{
+    margin-left: 10px;
+    font-size:20px ;
+}
+.ice{
+    position: absolute;
+    z-index: 60;
+    top: 22%;
+    left: 33%;
+    font-size: 100px;
+}
+.ice h1{
+    background-image: url('logo.jpg');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.right{
+    position: absolute;
+     top: 0;
+     left: 50%;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+}
+.land{
+    position: absolute;
+    z-index: 60;
+    top: 40%;
+    left: 0;
+    font-size: 80px;
+    color: white;
+}
+.ad{
+    position: absolute; 
+    top: 40%;
+    left: 75%;
+    color: wheat;
+    opacity: 0.4;
+    transform: rotate(-90deg);
+    font-size: 25px;
+}
+.ad h1{
+    font-weight: 300;
+}
+.sec{
+    position: absolute;
+    z-index: 60;
+    top: 70%;
+    left: 8%;
+}
+.upper{
+    width: 26%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.upper h1{
+    color: white;
+}
+.sec p{
+    width: 30%;
+    color: wheat;
+    opacity: 0.4;
+    margin-top: 5px;
+    margin-left: 58px;
+}
